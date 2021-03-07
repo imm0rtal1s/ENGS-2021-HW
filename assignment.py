@@ -1,15 +1,15 @@
 def nthfibonacci(age):
        if(age <= 100 and age >=2):
-           n1 = 0
-           n2 = 1
-           sum = 0
-           while (n2 <= age):
+            n1 = 0
+            n2 = 1
+            sum = 0
+            while (n2 <= age):
                sum = n2 + sum
                temp = n1 + n2
                n1 = n2
                n2 = temp
-               print(sum)
-               return sum
+            print(sum)
+            return sum
        else:
         print("Please enter your age")
         return 1
@@ -20,8 +20,8 @@ def isprime(ans):
            print("your age is not prime")
            return False
 
-       print("your age is prime")
-       return True
+    print("your age is prime")
+    return True
 
 def tobinary(age):
    binary = [0,0,0,0,0,0,0,0]
@@ -30,7 +30,7 @@ def tobinary(age):
        binary[i] = age%2
        i-=1
        age = int(age/2)
-       print(binary)
+   print(binary)
 
 def main():
        while (True):
