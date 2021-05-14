@@ -28,4 +28,3 @@ int main()
         std::cout << "The maximum is " << z << std::endl;
         return EXIT_SUCCESS;
 }
-

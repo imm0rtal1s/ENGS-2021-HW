@@ -52,9 +52,9 @@ int main (void)
 		std::cout <<"The value of the first salution is "<< x <<std::endl;
 		x = ((-b) + sqrt(D)) / 2*a;
 		std::cout <<"The valuse of the second salution is "<< x <<std::endl;
-
+	
 	}
 
 
-
+	
 }
