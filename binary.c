@@ -28,7 +28,7 @@ int main(void)
 
 { 
 
-    int age = 19;
+    int age = 18;
 
     int a =0;
 
